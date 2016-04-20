@@ -1,0 +1,87 @@
+/*
+
+ *= require_self
+ */
+@import "normalize";
+
+#sidebar{
+	position: absolute;
+	width: 18%;
+	height: 100%;
+	color:white;
+	background-color: green;
+	top:0;
+	ul{
+
+		margin-top: 150px;
+		text-align: right;
+		margin-right: 50px;
+
+		.category{
+			text-transform: uppercase;
+			color:white;
+			font-weight: bold;
+			font-size: 1.7em;
+			margin-bottom: 25px;
+		}
+		li{
+			font-size: 15px;
+			list-style: none;
+			a{
+				color:white;
+				text-decoration: none;
+				&:hover{
+					color:blue;
+				};
+			}
+		}
+	}
+	.sign_in{
+		text-align: right;
+		margin-right: 50px;
+	}
+}
+#main_content{
+	position: relative;
+    left: 220px;
+    height: 100%;
+    width: 82.2%;
+	#header{
+		height: 75px;
+		background-color: blue;
+		display: -webkit-box;
+
+		p{
+			color:white;
+			margin-top: 25px;
+			margin-left: 50px;
+		}
+		.button{
+			margin-left: 700px;
+			margin-top: 25px;
+			a{
+				text-decoration: none;
+			}
+		}
+	}
+}
+.post_wrapper{
+	padding-left: 50px;
+	text-align: justify;
+	.title{
+		color:violet;
+		font-size: 3em;
+
+		a{
+			text-decoration: none;
+		}
+	}
+}
+#post_content{
+	padding-left: 50px;
+	text-align: justify;
+	.title{
+		color:violet;
+		font-size: 3em;
+	}
+}
